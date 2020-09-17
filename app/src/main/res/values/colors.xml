@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#8c9eff</color>
+    <color name="thirdYear">#5CB85C</color>
+    <color name="firstYear">#777777</color>
+    <color name="secondYear">#337AB7</color>
+    <color name="fourthYear">#5BC0DE</color>
+    <color name="all">#F0AD4E</color>
+    <color name="white">#ffffff</color>
+</resources>

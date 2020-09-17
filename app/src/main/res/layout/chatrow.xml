@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/Chatroom_DateTimeDisplayID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Time_display"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:id="@+id/Chatroom_SenderInfoContainerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/Chatroom_DateTimeDisplayID">
+        <ImageView
+            android:id="@+id/Chatroom_messageSenderImageID"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/aau_logo"/>
+        <TextView
+            android:id="@+id/Chatroom_messageSenderNameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_Chat_Sender"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Chatroom_messageID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_Chat_Message"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_below="@id/Chatroom_SenderInfoContainerID"/>
+    <TextView
+        android:id="@+id/Chatroom_messageSenderTimeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Chatroom_messageID"
+        android:text="@string/Time_display"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"/>
+
+</RelativeLayout>

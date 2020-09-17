@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csnotify.k5.csnotify.LoginTab2Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp">
+
+        <TextView
+            android:id="@+id/Help_Title1ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Help_name"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/Help_helpDiscriptionID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Help_Discription"
+            android:layout_below="@id/Help_Title1ID"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/StartHelpButton"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/Help_helpDiscriptionID"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/StartButton"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:background="#2d2b2b"
+            android:drawableStart="@android:drawable/ic_menu_view"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csnotify.k5.csnotify.LoginTab1Fragment">
+
+
+    <EditText
+        android:id="@+id/EnterIDFieldID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="12sp"
+        android:hint="@string/EnterIDhint"
+        android:inputType="textAutoComplete"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp" />
+    <EditText
+        android:id="@+id/EnterPasswordFieldID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="12sp"
+        android:hint="@string/EnterPasswordhint"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:inputType="textPassword"
+        android:layout_below="@id/EnterIDFieldID"/>
+    <Button
+        android:id="@+id/LoginButtonID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/LoginButton"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:background="#b17f24"
+        android:layout_below="@id/EnterPasswordFieldID"/>
+
+
+</RelativeLayout>

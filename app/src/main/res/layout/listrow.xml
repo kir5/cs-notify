@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:padding="10dp">
+<LinearLayout
+    android:id="@+id/Course_Intro_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true">
+
+    <TextView
+        android:id="@+id/CoursetitleID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Course_name"
+        android:textColor="#b17f24"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"/>
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/last_info_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Course_Intro_ID"
+        android:layout_marginStart="30dp">
+        <LinearLayout
+            android:id="@+id/last_Sender_thumbnailID"
+            android:background="#ffeeeade"
+            android:layout_marginEnd="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/last_Sender_ImageID"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="#FFFFFFFF"
+                android:contentDescription="@string/Image_discription"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/last_chat_senderID"
+            android:layout_width="100dp"
+            android:layout_height="16dp"
+            android:text="@string/last_Chat_Sender"
+            android:layout_toEndOf="@id/last_Sender_thumbnailID"/>
+        <TextView
+            android:id="@+id/Last_Chat_MessageID"
+            android:layout_width="150dp"
+            android:layout_height="31dp"
+            android:text="@string/last_Chat_Message"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            android:textColor="#ff535f8f"
+            android:layout_toEndOf="@id/last_Sender_thumbnailID"
+            android:layout_below="@id/last_chat_senderID"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/Dateplace_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="12sp"
+        android:text="@string/Time_display"
+        android:textColor="#9c514d"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/last_info_ID"/>
+</RelativeLayout>

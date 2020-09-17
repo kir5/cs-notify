@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="#2d2b2b">
+
+    <ImageView
+        android:id="@+id/UserImagePlaceID"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/UserImage_Discription"
+        android:src="@drawable/user_icon"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/UserImagePlaceID"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/StudentNamePlaceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Student_name"
+            android:textColor="#b17f24"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/StudentIDPlaceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/StudentID_name"
+            android:textColor="#b17f24"
+            android:textSize="12sp"
+            android:layout_marginStart="30dp"/>
+    </LinearLayout>
+</RelativeLayout>

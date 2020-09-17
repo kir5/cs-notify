@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Nav_MyAccount"
+        android:icon="@mipmap/user"
+        android:title="@string/MyAccount_name"
+        android:layout_width="match_parent" />
+    <item android:id="@+id/Nav_Settings"
+        android:icon="@mipmap/gear"
+        android:title="@string/Settings_name"
+        android:layout_width="match_parent" />
+    <item android:id="@+id/Nav_Share"
+        android:icon="@mipmap/share"
+        android:title="@string/Share_name"
+        android:layout_width="match_parent" />
+    <item android:id="@+id/Nav_logOut"
+        android:icon="@mipmap/logout"
+        android:title="@string/Logout_name"
+        android:layout_width="match_parent" />
+
+</menu>

@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">CS NOTIFY</string>
+
+    //LoginActivity
+    <string name="LoginActivity_AppName">CS NOTIFY</string>
+    <string name="LoginActivity_DepartmentName">Department of Computer Science</string>
+    <string name="LoginTitle">LOGIN</string>
+    <string name="EnterIDhint">Enter Your ID</string>
+    <string name="EnterPasswordhint">Enter Password</string>
+    <string name="LoginButton">Login</string>
+    <string name="StartButton">Open Document</string>
+    <string name="FinishButton">Finish</string>
+
+    // Help
+    <string name="Help_name">HELP</string>
+    <string name="Help_Discription">\j This is a starting guide for new users of the application.
+    It describes how you can use the application. The guide is composed of the following topics :-
+    \n * Who should use this App?
+    \n * How do I use this App?
+    \n * Chatrooms for Students
+    \n * Chatrooms for Instructors
+    \n * The Notification Board
+    \n * The Slider
+    \n * About</string>
+    <string name="forWhom_Title">Who should use this App?</string>
+    <string name="forWhom_Discription">\jThis app is built for the use of instructors and undergraduate students in the Department of Computer Science at Addis Ababa University.
+     Anyone who want to use this app should be an Instructor or a current undergraduate student in the department. \j</string>
+    <string name="How_title">How do I use this App?</string>
+    <string name="How_Discription">\jInorder to use this app you should first enter your ID number and password in the provided fileds and press the login button.
+    After you login, you will see list of course names in a tab titled "Chatrooms". \j</string>
+    <string name="ChatRoomsForStudents_Title">Chatrooms for students</string>
+    <string name="ChatRooms_Discriptionforstudents">\jIn the Chatrooms tab, if you are a student, you will see the list of cources you are currently taking.
+    You can click on any of the listed cources inorder to enter the cource\'s chat area.
+    Your instructor will be the one who will administrate the chatroom.
+    You can post and view messeges in the chating area. \j</string>
+    <string name="ChatRoomsForInstructors_Title">Chatrooms for instructors</string>
+    <string name="ChatRooms_Discriptionforinstructors">\jIn this tab you will see the list of cources you are currently teaching.
+    You can click on any of the listed cources inorder to enter the cource\'s chat area.
+    You will be the one who will administrate the chatroom; titled with the course name you are teaching.
+    You can post and view messeges in the chating area.
+    You can also delete messages from the chat area. \j</string>
+    <string name="NotificationBoard_Title">The Notification Board</string>
+    <string name="NotificationBoard_Discription">\jIn the tab titled "Notification Board" you will be able to see notifications posted by the department.
+    The notifications from the department are followed by tags, which imply for whom this notifications are. \j</string>
+    <string name="Slider_Title">The Slider</string>
+    <string name="Slider_Discription">\jYou can slide to the right from the left corner of your screen to open the slider.
+    you can perform certain tasks from this window.(such as view your profile, change your password, share this app or logout) \j</string>
+    <string name="About_Title">About</string>
+    <string name="About_Discription">This app is developed by:-
+        \n Third year undergraduate computer science students:-
+        \n 1. Kirubel Solomon / NSR/6880/07
+        \n 2. Rabra Hierpa/ NSR/4570/07
+        \n 3. Yirga Teklay / NSR/3359/07
+        \n\n\n 2009 E.C   2017 G.C</string>
+
+    // Strings for the navigation and the Drawer
+    <string name="Title_name">Main Layout</string>
+    <string name="MyAccount_name">My Information</string>
+    <string name="Settings_name">Change Password</string>
+    <string name="Share_name">Share</string>
+    <string name="Logout_name">Logout</string>
+    <string name="Open_name">Open</string>
+    <string name="Close_name">Close</string>
+    <string name="Department_name">Department of Computer Science</string>
+    <string name="UserImage_Discription">User image</string>
+    <string name="Student_name">Sample Student</string>
+    <string name="StudentID_name">NSR/0000/09</string>
+
+    // Strings for the first fragment
+    <string name="Course_name">Wireless Communications and Mobile Computing</string>
+    <string name="last_Chat_Sender">Abebe Kebede</string>
+    <string name="last_Chat_Message">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="Image_discription">Image</string>
+    <string name="Time_display">Date / Time</string>
+
+    // Strings for second fragment
+    <string name="dummy_depart_message">Dear 3rd year undergraduate computer science students, registration for the second semistor will be on March 21-22. So you are required to register on time. keep in mind late registration is forbidden for this semistor!!!</string>
+    <string name="Programm_manager_name">Wro. Amsele</string>
+    <string name="sample_tag">Third Year</string>
+
+    // Strings for chatroom
+    <string name="chatRoomTitle">Object Oriented Software Engineering</string>
+    <string name="SendButton">Send</string>
+    <string name="messageFieldHint">Enter message</string>
+    <string name="Person2name">Dawit Tesfaye</string>
+    <string name="Person2chat">Ok I understand, I\'ll be there.</string>
+    <string name="Person1chat">Don\'t be late guys. Its serious. Really don\'t disappoint me.</string>
+
+    // Strings for myInformation
+    <string name="myInfoTitle">MY INFORMATION</string>
+    <string name="myInfoName">Name</string>
+    <string name="myInfoID">ID</string>
+    <string name="myInfoRole">Role</string>
+    <string name="SampleRole">Student</string>
+    <string name="OKButton">Ok</string>
+
+
+    // Strings for change password Activity
+    <string name="ChangePass_oldpasswordHint">Enter current password</string>
+    <string name="ChangePass_newPasswordHint">Enter new password</string>
+    <string name="ChangePass_changeButton">Change</string>
+    <string name="dummy_date">2017-05-20 18:55:29</string>
+    <string name="dummy_string">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="tag1">3rd Year</string>
+    <string name="loading">Loading ...</string>
+</resources>
